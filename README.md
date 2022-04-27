@@ -10,38 +10,14 @@
 
 ### 🏠 [Homepage](https://web.stanford.edu/class/cs143/)
 
-## Build
+## Discribe
 
-```sh
-docker build -t colinaaa/cs143 .
-```
+编译原理cs143的初始仓库,实验是实现cool语言编译器,PA基本是学框架,和真正手写编译器还是有区别,而且公开课视频资源是远古慕课版本,实验也很久没人维护了,对学生不是很友好,做着像坐牢,再加上编译原理本身就是一门难度较大的学科,独自看龙书实在看不懂,好多数学推导(:=,准备以后时间充裕或者有更好的资源再学这玩意儿,先去学csapp,遂润...
 
-## Install
 
-```sh
-make install
-```
-
-## Usage
-
-```fish
- docker run -it -v &#34;$PWD:/root/cs143&#34; --name cs143 colinaaa/cs143:latest
-```
-
-## Author
+## 初始仓库以及实验容器作者与仓库地址
 
 👤 **Colin Wang**
 
 * Github: [@colinaaa](https://github.com/colinaaa)
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2020 [Colin Wang](https://github.com/colinaaa).<br />
-This project is [Unlicense](https://github.com/colinaaa/cs143/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
